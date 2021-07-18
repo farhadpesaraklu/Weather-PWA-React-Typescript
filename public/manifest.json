@@ -19,7 +19,12 @@
     }
   ],
   "start_url": ".",
+  "scop": ".",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "description": "A simple Weather App",
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "lang": "en-US"
 }

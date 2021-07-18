@@ -1,4 +1,4 @@
-import React, { HtmlHTMLAttributes, useState } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { fetchWeather } from './api/fetchWeather';
 
@@ -90,10 +90,10 @@ function App() {
             <sup>&deg;C</sup>
           </div>
           <div className="info">
-            <img
+            {/* <img
               className="city-icon"
               src={`https://openweathermap.org/img/wn ${weather.weather?.[0].icon} @2x.png`} alt={weather.weather?.[0].description}
-            />
+            /> */}
             <p>{weather.weather?.[0].description}</p>
           </div>
         </div>
